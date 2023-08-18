@@ -4,13 +4,27 @@
        height: 24px;
        background-image: url("../img/Menu.svg");
        display:inline-block;
-       background-repeat: no-repeat;
+       background-repeat: no-repeat; 
        background-position: center;
     }
+
+    .cabecalho{
+        background-color: var(--cor-de-fundo-min);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    
+    .titulo__cabecalho{
+        display: none;
+    }
+    
+
 }   
 
 .cabecalho{
-    background-color: var(--branco);
+    background-color: var(--cor-de-fundo-min);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,5 +68,7 @@
 
 }
 .titulo__cabecalho{
-    display: none;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
 }
+

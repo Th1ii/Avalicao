@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root{
     --cor-de-fundo: #e5e5e5;
+    --cor-de-fundo-min: #9e9e9e;
     --branco: #FFFFFF;
     --amarelo:  #FECD2F;
     --roxo-degrade: 
     linear-gradient(94.49deg,  #733887 35.48%,  #C75EEB 143.32%);
     --roxo: #ea00ff;
 }
-body{
-    background-color: var(--cor-de-fundo);
+
+@media screen and (max-width:1024px){
+
 }
+
+
